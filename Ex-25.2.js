@@ -4,9 +4,9 @@ const something = {
     console.log(`I am ${this.name}`);
   },
   printNameDelay() {
-    setTimeout(this.printName.bind(this),1000)
-  }
-}
+    setTimeout(this.printName.bind(this), 1000);
+  },
+};
 
 something.printName();
 something.printNameDelay();
